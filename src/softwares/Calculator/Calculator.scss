@@ -12,6 +12,7 @@
     flex-direction: column;
     padding: 1rem;
     font-size: 2.5em;
+    align-items: center;
 
     svg {
       margin-bottom: 1em;
@@ -21,9 +22,11 @@
   &-rightbar {
     height: 100%;
     flex: 2;
-    padding: 2rem 1rem;
+    padding: 1rem;
     font-size: 1em;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
     align-items: center;
   }
 }
